@@ -48,6 +48,10 @@ header a {
   border-bottom: solid black 1px;
 }
 
+header a:hover {
+  background-color: #9f9f9f;
+}
+
 header nav {
   text-align: center;
 }
@@ -57,7 +61,6 @@ header li {
   width: 33.3%;
   list-style-type: none;
   float: left;
-
 }
 
 header li:first-child {
@@ -66,4 +69,126 @@ header li:first-child {
 
 header li:nth-child(3) {
   border-left: solid black 1px;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+  h1 {
+    padding: 0;
+    margin-left: 20px;
+    display: inline-block;
+    width: 5%;
+    vertical-align: middle;
+  }
+
+  header img {
+    padding-top: 0.3em;
+    vertical-align: middle;
+    width: 50px;
+  }
+
+  header a {
+    border: none;
+    padding: 25px 35px;
+  }
+
+  header li {
+    width: auto;
+  }
+
+  header li:first-child {
+    border-right: none;
+  }
+
+  header li:nth-child(3) {
+    border-left: none;
+  }
+
+  header a:nth-child(3) {
+    padding-right: 40px;
+  }
+
+  header nav {
+    vertical-align: middle;
+    float: right;
+    padding-right: 35px;
+  }
+  
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+  h1 {
+    padding: 0;
+    margin-left: 20px;
+    display: inline-block;
+    width: 5%;
+    vertical-align: middle;
+  }
+
+  header img {
+    padding-top: 0.3em;
+    vertical-align: middle;
+    width: 50px;
+  }
+
+  header a {
+    border: none;
+    padding: 25px 35px;
+  }
+
+  header li {
+    width: auto;
+  }
+
+  header li:first-child {
+    border-right: none;
+  }
+
+  header li:nth-child(3) {
+    border-left: none;
+  }
+
+  header a:nth-child(3) {
+    padding-right: 40px;
+  }
+
+  header nav {
+    vertical-align: middle;
+    float: right;
+    padding-right: 35px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
 }

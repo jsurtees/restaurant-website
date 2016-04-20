@@ -17,6 +17,11 @@ html {
 	box-sizing: inherit;
 }
 
+
+
+
+
+
 body {
   margin: 0;
 }
@@ -70,6 +75,79 @@ header li:first-child {
 header li:nth-child(3) {
   border-left: solid black 1px;
 }
+
+
+
+
+
+
+.banner-img {
+  width: 120%;
+  overflow: hidden;
+  transform: translateX(-10%);
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-body {
+  position: absolute;
+  max-width: 65%;
+  margin-left: 20px;
+  bottom: 20%;
+}
+
+.cta-btn {
+  color: #fff;
+  text-decoration: none;
+  background-color: #9f9f9f;
+  padding: 8px;
+}
+
+
+
+
+
+.cards {
+  width: 100%;
+  text-align: center;
+}
+
+.cards img {
+  width: 50%;
+}
+
+
+.cards p {
+  text-align: left;
+}
+
+.menu-card {
+  margin: 1em;
+  padding: 1em;
+  border: solid black 1px;
+}
+
+.health-card {
+  margin: 1em;
+  padding: 1em;
+  border: solid black 1px;
+}
+
+.acpay-card {
+  margin: 1em;
+  padding: 1em;
+  border: solid black 1px;
+}
+
+.social-card {
+  border-left: 40px solid transparent;
+  margin: 1em;
+  padding: 1em;
+  border: solid black 1px;
+}
+
 
 
 @media only screen and (min-width: 25em) {
@@ -127,7 +205,44 @@ header li:nth-child(3) {
     float: right;
     padding-right: 35px;
   }
-  
+
+
+
+  .banner-body {
+    margin: 0;
+    left: 50%;
+    bottom: 20%;
+    text-align: center;
+    transform: translateX(-50%);
+    width: 80%;
+  }
+
+  .banner-img {
+    width: 100%;
+    transform: translateX(0%);
+  }
+
+
+  .menu-card {
+    width: 43%;
+    display: inline-block;
+  }
+
+  .health-card {
+    width: 43%;
+    display: inline-block;
+  }
+
+  .acpay-card {
+    width: 43%;
+    display: inline-block;
+  }
+
+  .social-card {
+    width: 43%;
+    display: inline-block;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -180,6 +295,26 @@ header li:nth-child(3) {
     vertical-align: middle;
     float: right;
     padding-right: 35px;
+  }
+
+  .menu-card {
+    width: 21%;
+    display: inline-block;
+  }
+
+  .health-card {
+    width: 21%;
+    display: inline-block;
+  }
+
+  .acpay-card {
+    width: 21%;
+    display: inline-block;
+  }
+
+  .social-card {
+    width: 21%;
+    display: inline-block;
   }
 
 }

@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -103,6 +104,11 @@ header li:nth-child(3) {
 .cards {
   width: 100%;
   text-align: center;
+}
+
+.cards a {
+  text-decoration: none;
+  color: black;
 }
 
 .cards img {

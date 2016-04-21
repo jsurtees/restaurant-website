@@ -177,6 +177,10 @@ small {
   vertical-align: middle;
 }
 
+.cta-btn:hover {
+  background-color: black;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {

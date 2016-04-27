@@ -97,8 +97,10 @@ header li:nth-child(3) {
 .cta-btn {
   color: #fff;
   text-decoration: none;
-  background-color: #9f9f9f;
-  padding: 8px;
+  background-color: #686868;
+  padding: 6px 10px;
+  border: solid 2px #3a3a3a;
+  border-radius: 5px;
 }
 
 .cards {
@@ -181,6 +183,10 @@ small {
   background-color: black;
 }
 
+h5 {
+  font-size: 110%;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -258,28 +264,38 @@ small {
 
   .menu-card {
     width: 43%;
+    height: 20em;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .health-card {
     width: 43%;
+    height: 20em;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .acpay-card {
     width: 43%;
+    height: 20em;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .social-card {
     width: 43%;
+    height: 20em;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .section div {
     display: inline-block;
     width: 29%;
     margin: 0 10px;
+    vertical-align: top;
+    margin-top: 10px;
   }
 
   h5 {
@@ -346,23 +362,31 @@ small {
   }
 
   .menu-card {
-    width: 21%;
+    width: 20%;
+    height: 18em;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .health-card {
-    width: 21%;
+    width: 20%;
+    height: 18em;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .acpay-card {
-    width: 21%;
+    width: 20%;
+    height: 18em;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .social-card {
-    width: 21%;
+    width: 20%;
+    height: 18em;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .section h4 {
@@ -377,6 +401,10 @@ small {
 
   .sections {
     padding-top: 5em;
+  }
+
+  .lame {
+    vertical-align: bottom;
   }
 
 }
